@@ -1,0 +1,71 @@
+<!-- One of the 2 other pages -->
+<!doctype html> 
+
+<html>
+    <head>
+        <!-- css link in head -->
+        <link href = "myStyles.css" rel = "stylesheet" type="text/css" /> 
+        <title>Arm Wrestling Techniques</title>
+    </head>
+
+    <body>
+        <h1>Professional Arm Wrestling Techniques</h1>
+
+        <!-- Navigation bar to my other webages -->
+        <nav>
+            <a class="nav_tab" href="index.html">Home Page</a>
+            <a class="nav_tab" href="techniques.html">Professional Techniques</a>
+            <a class="nav_tab" href="external.html">External Links</a>
+            <a class="nav_tab" href="saved.html">Saved items</a>
+        </nav>
+
+        <div id="techniques_container">
+            <div id="toproll_container">
+                <h3>Top Roll</h3>
+                <img class="technique_img" src="toproll.png" alt="toproll">
+                <!-- 1 unordered lists -->
+                <ul>
+                    <li>Gain an advantage over your opponent by rolling your hand over their hand</li>
+                    <li>Grip high on your opponent's hand to attack their fingers, which are the weakest links in the entire arm</li>
+                    <li>Pull your opponent's hand away from their body to create a leverage disadvantages for them</li>
+                </ul>
+            </div>
+            <div id="hook_container">
+                <h3>Hook</h3>
+                <img class="technique_img" src="hook.png" alt="hook">
+                <!-- 1 unordered lists -->
+                <ul>
+                    <li>User your bicep and back to pull your opponent's hand toward you, without relying on grip strength to push their hand down</li>
+                    <li>Keep your arm and shoulder tight togather to maintain maximum pulling strength</li>
+                    <li>Supinate your hand while keep your wrist flexed to create an unbatural position for your opponent </li>
+                </ul>
+            </div>
+            <div id="press_container">
+                <h3>Press</h3>
+                <img class="technique_img" src="press.png" alt="press">
+                <!-- 1 unordered lists -->
+                <ul>
+                    <li>Use your tricep and shoulder to push your opponent's hand down rather than pulling them to the side or to your back</li>
+                    <li>You don't need to keep your wrist flex while pressing, you just need to keep your shoulder close to your hand</li>
+                    <li>Grip on your opponent's finger instead of their palm so it's harder for them to escape your press</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="submit_radio_heading">Want is your favourite Arm Wrestling technique?</h3>
+
+        <!-- 1 radio button form -->
+        <form>
+            <input type="radio" id="toproll" name="fav_language" value="HTML">
+            <label for="toproll">Top Roll</label><br>
+            <input type="radio" id="hook" name="fav_language" value="CSS">
+            <label for="hook">Hook</label><br>
+            <input type="radio" id="press" name="fav_language" value="JavaScript">
+            <label for="press">Press</label><br><br>
+        </form>
+
+        <script type='text/javascript' src='./techniques.js'></script>
+    
+    </body>
+
+</html>

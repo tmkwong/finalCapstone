@@ -1,0 +1,93 @@
+<!-- Homepage of my webpages -->
+<!doctype html> 
+
+<html>
+    <head>
+        <!-- css link in head -->
+        <link href = "myStyles.css" rel = "stylesheet" type="text/css" /> 
+        <title>Learn Arm Westling</title>
+    </head>
+
+    <body>
+        <h1>Welcome to The World of Professional Arm Wrestling</h1>
+
+        <!-- Navigation bar to my other webages -->
+        <nav>
+            <a class="nav_tab" href="index.html">Home Page</a>
+            <a class="nav_tab" href="techniques.html">Professional Techniques</a>
+            <a class="nav_tab" href="external.html">External Links</a>
+            <a class="nav_tab" href="saved.html">Saved items</a>
+        </nav>
+
+        <!-- 5 images -->
+        <div id="homepage_banner">
+            <div class="homepage_inline_block" id="img_1">
+                <img class="homepage_img" src="img1.png" alt="img1"><br>
+            </div>
+            <div class="homepage_inline_block" id="img_2">
+                <img class="homepage_img" src="img2.png" alt="img2"><br>
+            </div>
+            <div class="homepage_inline_block" id="img_3">
+                <img class="homepage_img" src="img3.png" alt="img3"><br>
+            </div>
+            <div class="homepage_inline_block" id="img_4">
+                <img class="homepage_img" src="img4.png" alt="img4"><br>
+            </div>
+            <div class="homepage_inline_block" id="img_5">
+                <img class="homepage_img" src="img5.png" alt="img5"><br>
+            </div>
+        </div>
+
+        <!-- 1 quote -->
+        <q>You Are As Strong As Your Weakest Link</q>
+
+        <div id="intro">
+            <!-- 2 blocks (text with a background) -->
+            <div id="b1"> 
+                <p class="block">Learn how to get better in arm wrestling and improve your weakest muscle by checking "Professional Techniques" above</p>
+            </div>
+            <div id="b2">
+                <p class="block">Also check out some useful external links to learn more about the sport itself</p>
+            </div>
+        </div>
+
+        <!-- 1 submit button form -->
+        <h3 id="submit_button_heading">Want to know the newest Arm Wrestling news? Subscribe to our newsletter below</h3>
+
+        <form>
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name: </label>
+            <input type="text" id="lname" name="lname">
+            <label for="email">Email address: </label>
+            <input type="text" id="email" name="email">
+            <input type="submit" value="Submit">
+        </form> 
+
+        <!-- A form to allow readers to contact the author -->
+        <h3 id="contact_author_heading">Contact Author</h3>
+
+        <form>
+            <input type="text" placeholder="your name" id="contact_name" name="contact_name"><br>
+            <textarea type="text" placeholder="your message" id="message" name="message"></textarea><br>
+            <button type="button" id="send_message" onClick="sendMessage()">send message</button>
+        </form> 
+
+        <!-- 1 submit button form -->
+        <h3 id="comment_heading">Comment Session</h3>
+
+        <!-- A form to leave comment -->
+        <form>
+            <input type="text" placeholder="your name" id="comment_name" name="comment_name"><br>
+            <textarea placeholder="your comment" id="comment"></textarea><br>
+            <button type="button" id="submit_comment" onClick="addComment()">leave comment</button>
+        </form> 
+
+        <div id="comment_container"></div>
+
+        <!-- Link js script at the end of <body> to let it load AFTER the HTML markdown -->
+        <script src="./index.js"></script>
+
+    </body>
+
+</html>

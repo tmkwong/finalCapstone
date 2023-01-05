@@ -1,0 +1,78 @@
+/* Just some minor styling, ordered from general to specific, nothing new for me here */
+nav {
+    margin-bottom: 30px;
+}
+q {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+input[type=radio] {
+    margin-right: 30px;
+}
+th {
+    text-align: left;
+    width: 33%;
+    height: 80px;
+    font-size: 20px;
+}
+tr {
+    width: 33%;
+    height: 80px;
+}
+
+.nav_tab {
+    margin-right: 50px;
+}
+.homepage_img {
+    width: 250px;
+    height: 150px;
+    object-fit: "scale-down";
+    border-style: solid;
+}
+.homepage_inline_block {
+    size: 33.3%;
+}
+.external_img {
+    width: 338px;
+    height: 337px;
+    border-style: solid;
+}
+.block{
+    width: 1000px;
+    text-align: center;
+    background-color: rgb(209, 147, 131);
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 3px;
+    margin-top: 30px;
+}
+.save, .like{
+    margin-right: 30px;
+    font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#homepage_banner {
+    display: flex;
+    margin-bottom: 40px;
+}
+#external_banner {
+    display: flex;
+    margin-bottom: 40px;
+}
+#fname, #lname, #email {
+    margin-right: 30px;
+}
+#submit_button_heading, #submit_radio_heading, #contact_author_heading, #comment_heading {
+    margin-top: 60px;
+}
+#contact_name, #comment_name {
+    margin-bottom: 10px;
+}
+#message, #comment{
+    height: 100px;
+    width: 500px;
+    margin-bottom: 10px;
+}
