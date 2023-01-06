@@ -1,6 +1,6 @@
 Project name: Build a complete website
 
-0. Table of contnet
+0. Table of content
 - Description
 - Installation
 - Usage
