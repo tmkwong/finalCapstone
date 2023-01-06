@@ -14,7 +14,7 @@ Most of the interactive functions are create with JavaScript DOM, and in the nex
 2. Installation:
 No installation need as long as you have a modern web browser.
 
-3. Usage
+3. Usage:
 Simply open index.html with a modern browser and start browsing my first website!
 
 4. Reference
